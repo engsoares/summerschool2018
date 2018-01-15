@@ -1,2 +1,1 @@
-# summer_school_2018
-Deep Learning Summer School 2018
+# Deep Learning Brasil Summer School 2018

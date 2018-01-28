@@ -1,1 +1,2 @@
-# Deep Learning Brasil Summer School 2018
+![](capa_1.png)
+![](capa_2.png)

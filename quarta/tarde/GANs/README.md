@@ -22,6 +22,10 @@ Learning, Reinforcement Learning, Natural Language Processing models:
 
 https://github.com/RubensZimbres/Repo-2017
 
+In this link you will also find a PDF I developed with 150 Machine Learning formulas:
+
+https://github.com/RubensZimbres/Repo-2017/blob/master/Pictures%20-%20Formulas/EQUATIONS.FINAL.16.OK.pdf
+
 <img src=https://github.com/RubensZimbres/Repo-2018/blob/master/Deep%20Learning%20Summer%20School/GANs.jpg>
  
 <img src=https://github.com/RubensZimbres/Repo-2018/blob/master/Deep%20Learning%20Summer%20School/GAN_Best.PNG>

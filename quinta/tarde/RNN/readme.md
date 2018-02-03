@@ -13,6 +13,6 @@ Os três notebooks são:
 
 
 Os datasets e modelos pré treinados estão em um rar disponível pelo dropbox no link:
-https://www.dropbox.com/s/ywnsvhr7kmo3i68/Datasets%20e%20modelos-RNN.rar?dl=0
+[Datasets e modelos](https://www.dropbox.com/s/ywnsvhr7kmo3i68/Datasets%20e%20modelos-RNN.rar?dl=0)
 
 Basta fazer o download e extrair os arquivos para a mesma pasta dos notebooks

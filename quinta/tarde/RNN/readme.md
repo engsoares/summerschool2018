@@ -3,7 +3,7 @@ Nesta pasta estão os notebook e arquivos referentes as arquiteturas recorrentes
 
 Os três notebooks são:
 
-1. RNNs. Primeiros passos.
+1. [RNNs Primeiros passos](RNNS.ipynb)
 https://github.com/deeplearningbrasil/summerschool2018/blob/master/quinta/tarde/RNN/RNNs.ipynb
 
 

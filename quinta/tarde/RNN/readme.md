@@ -6,7 +6,7 @@ Os três notebooks são:
 1. [RNNs: Primeiros passos](RNNS.ipynb)
 
 
-2. [Arquitetura SelfAttention para análise de sentimentos](Self Attention LSTM.ipynb)
+2. [Arquitetura SelfAttention para análise de sentimentos](SelfAttentionLSTM.ipynb)
 
 
 3. [Seq2Seq para tradução inglês-português](Seq2Seq.ipynb)

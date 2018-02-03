@@ -3,16 +3,13 @@ Nesta pasta estão os notebook e arquivos referentes as arquiteturas recorrentes
 
 Os três notebooks são:
 
-1. [RNNs Primeiros passos](RNNS.ipynb)
-https://github.com/deeplearningbrasil/summerschool2018/blob/master/quinta/tarde/RNN/RNNs.ipynb
+1. [RNNs: Primeiros passos](RNNS.ipynb)
 
 
-2. Arquitetura SelfAttention para análise de sentimentos
-https://github.com/deeplearningbrasil/summerschool2018/blob/master/quinta/tarde/RNN/Self%20Attention%20LSTM.ipynb
+2. [Arquitetura SelfAttention para análise de sentimentos](Self Attention LSTM.ipynb)
 
 
-3. Seq2Seq para tradução inglês-português
-https://github.com/deeplearningbrasil/summerschool2018/blob/master/quinta/tarde/RNN/Seq2Seq.ipynb
+3. [Seq2Seq para tradução inglês-português](Seq2Seq.ipynb)
 
 
 Os datasets e modelos pré treinados estão em um rar disponível pelo dropbox no link:

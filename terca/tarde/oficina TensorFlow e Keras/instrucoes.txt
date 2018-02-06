@@ -1,0 +1,67 @@
+
+Deep Learning Summer School 2018
+Hands On TensorFlow e Keras
+Sandro Silva Moreira
+moreira.sandro@gmail.com
+
+Instruções:
+++++++++++++++++++++++++++++
+
+Este exemplo usa uma rede neural Inception com arquitetura pré-treinada (transfer learning) para extrair as características da imagem analisada.
+
+A última camada, de classificação que foi treinada nesse caso para
+reconhecer personagens de "Os Simpsons", no entanto ela pode ser
+retreinada para reconhecer qualquer outra coisa.
+
+
+Para testar, utilize o script: label_image.py
+
+ex:   python label_image.py [imagem_a_ser_analisada.jpg]
+
+
+O resultado da classificação será feito mostrando a probabilidade
+da "imagem_a_ser_analisada.jpg" ser cada uma das classes. A classe de mais alta probabilidade aparece no topo da lista.
+
+
+
+OBS. Se você quiser mudar totalmente o dataset, usando o script para classificar flores, por exemplo, organize as subpastas do diretório "data" de acordo com sua necessidade, colocando as imagens diretamente nelas: (pode inclusive apagar as imagens dos personages)
+
+ex:
+data
+  |
+  +--Rosa
+  	   |
+  	   +-rose.jpg
+  	   +-rosa1.png
+  	   +-rosas.jpeg
+  +--Margarida
+  	   |
+  	   +-dayse.jpg
+  	   +-margarida1.jpg
+  +--Tulipa
+  	   |
+  	   +-tulipa1.jpg
+  	   +-tulipe.png
+
+
+Siga as instruções abaixo para realizar o "retreinamento" da camada
+de classificação:
+
+
+python image_retraining/retrain.py \
+--bottleneck_dir=bottlenecks \
+--how_many_training_steps 500 \
+--model_dir=inception \
+--output_graph=retrained_graph.pb \
+--output_labels=retrained_labels.txt \
+--image_dir=data
+
+
+Isso vai gerar uma outra rede binária nova, que agora, conhecerá flores.  :)
+
+
+DICA:
+
+Você pode acompanhar os parâmetros de treinamento através do tensorboard.
+
+tensorboard --logdir=/tmp/retrain_logs --port 6006
